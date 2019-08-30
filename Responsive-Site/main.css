@@ -1,17 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: san-serif;
+  margin: 0;
 }
 
 #product-overview {
   background: #ff1b68;
+  /* padding: 20px;
+  border: 5px black solid;
+  margin: 20px; */
+  width: 100%;
+  height: 528px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 #product-overview h1 {
   color: white;
-  /* font-family: sans-serif; */
+  font-family: sans-serif;
 }
 
 .section-title {
   color: #2ddf5c;
   font-family: inherit;
+}
+
+.main-header {
+  /* What if we are using headers somehwere else? 
+    Better to a class. */
+  width: 100%;
+  background: #2ddf5c;
+  padding: 8px 16px;
 }
