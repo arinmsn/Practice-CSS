@@ -23,8 +23,9 @@
 }
 
 #product-overview h1 {
-  color: white;
+  color: black;
   font-family: "Anton", sans-serif;
+  font-size: 40px;
   position: absolute;
   bottom: 5%;
   left: 3%;
