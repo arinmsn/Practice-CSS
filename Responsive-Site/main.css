@@ -1,6 +1,10 @@
 #product-overview {
-  background: url("dallas-reedy-NEJFAS1Okho-unsplash.jpg") left 10% bottom 40% /
-    cover no-repeat padding-box;
+  /* background: url("dallas-reedy-NEJFAS1Okho-unsplash.jpg") left 10% bottom 40% /
+    cover no-repeat padding-box; */
+  background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
+    url("dallas-reedy-NEJFAS1Okho-unsplash.jpg") left 10% bottom 70% / cover
+      no-repeat border-box,
+    #ff1b68;
   /* background-image: url("dallas-reedy-NEJFAS1Okho-unsplash.jpg"); */
   /* cover / contain */
   /* background-size: contain;
@@ -23,8 +27,8 @@
 }
 
 #product-overview h1 {
-  color: black;
-  font-family: "Anton", sans-serif;
+  color: white;
+  font-family: sans-serif;
   /* font-size: 40px; */
   position: absolute;
   bottom: 5%;
