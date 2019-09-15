@@ -68,7 +68,7 @@ body {
 
 .main-header__brand img {
   height: 100%;
-  /* width: 100%;  */
+  /* width: 100%; */
 }
 
 .main-nav {
@@ -195,4 +195,8 @@ body {
 
 .button:focus {
   outline: none;
+}
+
+.open {
+    display: block !important;
 }
