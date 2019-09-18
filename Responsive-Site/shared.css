@@ -7,6 +7,12 @@ body {
   margin: 0;
 }
 
+main {
+  /* for footer */
+  min-height: calc(100vh - 3.5rem - 8rem);
+  margin-top: 3.5rem;
+}
+
 .backdrop {
   position: fixed;
   display: none;
@@ -60,7 +66,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 1.5rem;
-  height: 1.5rem;
+  height: 2.5rem;
   /* width: 20px; */
   display: inline-block;
   vertical-align: middle;
@@ -198,5 +204,5 @@ body {
 }
 
 .open {
-    display: block !important;
+  display: block !important;
 }
